@@ -74,16 +74,16 @@
         [self.btnPhone setTitle:[NSString stringWithFormat:@" %@",self.venue.formattedPhone] forState:UIControlStateNormal];
     }
     
-    if(self.venue.venueRatingBlacklisted == NULL)
-        self.lblRating.hidden = true;
-    else
-    {
-        self.lblRating.hidden = false;
-        if([self.venue.venueRatingBlacklisted boolValue])
-            self.lblRating.text = @"Rating: Good";
-        else
-            self.lblRating.text = @"Rating: Not good";
-    }
+//    if(self.venue.venueRatingBlacklisted == NULL)
+//        self.lblRating.hidden = true;
+//    else
+//    {
+//        self.lblRating.hidden = false;
+//        if([self.venue.venueRatingBlacklisted boolValue])
+//            self.lblRating.text = @"Rating: Good";
+//        else
+//            self.lblRating.text = @"Rating: Not good";
+//    }
     strAddress = nil;
 
 }

@@ -1,4 +1,4 @@
-This application is displaying the venues for current location. It also find venues based on name of place. From list of venues user can tap on any one and can see more detail. From detail view, user can see photos, website and can make call. 
+This iPhone application is displaying the venues for current location. It also find venues based on name of place. From list of venues user can tap on any one and can see more detail. From detail view, user can see photos, website and can make call. 
 
 For current location, I have used core location. In authorization method of current location, if user has not determined or if user has denied to use the location service, then I am calling API by using hard code latitude and longitude for Comcast office. 
 
@@ -82,13 +82,13 @@ It contain ParseOperation and ParseOperationPhoto for parsing of requested URL. 
 Model
 It contain data for storing API response for venues and photos. During JSON parsing, I am keep on adding data for model classes.
 
-Software Used:
+This is iPhone only application. 
 
+Software Used:
 Xcode 8.2
 
 Deployment target
 iOS 7 and later
-
 
 
 
